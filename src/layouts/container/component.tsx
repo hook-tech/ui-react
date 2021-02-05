@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { getClassName } from '@hook-techhh/core';
-import { ISingleAnyChildProps } from '@hook-techhh/core-react';
+import { getClassName } from '@hook-tech/core';
+import { ISingleAnyChildProps } from '@hook-tech/core-react';
 import styled from 'styled-components';
 
 import { IDimensionGuide } from '../../particles';
