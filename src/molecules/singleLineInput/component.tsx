@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { getClassName } from '@kibalabs/core';
+import { getClassName } from '@hook-tech/core';
 import styled from 'styled-components';
 
 import { InputType } from '../../model';
@@ -28,7 +28,7 @@ const StyledSingleLineInput = styled.input`
   &:focus {
     outline: none;
   }
-  
+
   &.disabled {
     pointer-events: none;
   }

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { getClassName } from '@kibalabs/core';
-import { IMultiAnyChildProps } from '@kibalabs/core-react';
+import { getClassName } from '@hook-tech/core';
+import { IMultiAnyChildProps } from '@hook-tech/core-react';
 import styled from 'styled-components';
 
 const StyledLayer = styled.div`

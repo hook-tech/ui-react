@@ -1,14 +1,14 @@
 {
-  "name": "@kibalabs/ui-react",
+  "name": "@hook-tech/ui-react",
   "version": "0.8.3",
   "description": "React UI component library for building projects at Kiba Labs",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kibalabs/ui-react.git"
+    "url": "https://github.com/hook-tech/ui-react.git"
   },
-  "homepage": "https://ui-react-docs.kibalabs.com",
-  "bugs": "https://github.com/kibalabs/ui-react/issues",
+  "homepage": "https://ui-react-docs.hook-tech.com",
+  "bugs": "https://github.com/hook-tech/ui-react/issues",
   "scripts": {
     "build": "build-react-component",
     "start": "build-react-component --start",
@@ -28,14 +28,14 @@
   "types": "dist/index.d.ts",
   "sideEffects": false,
   "dependencies": {
-    "@kibalabs/core": "^0.5.3",
-    "@kibalabs/core-react": "^0.5.5",
+    "@hook-tech/core": "^0.5.4-next.0",
+    "@hook-tech/core-react": "^0.5.6-next.1",
     "lazysizes": "^5.3.0",
     "polished": "^4.0.5",
     "react-markdown": "^5.0.3"
   },
   "devDependencies": {
-    "@kibalabs/build": "0.6.4",
+    "@hook-tech/build": "0.6.4",
     "@storybook/addon-essentials": "6.1.14",
     "@storybook/addon-links": "6.1.14",
     "@storybook/react": "6.1.14",

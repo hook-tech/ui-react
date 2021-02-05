@@ -1,5 +1,5 @@
 
-import { RecursivePartial } from '@kibalabs/core';
+import { RecursivePartial } from '@hook-tech/core';
 
 import { IBoxTheme, ITextTheme } from '../../particles';
 import { ThemeType } from '../../util';
