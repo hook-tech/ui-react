@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { getClassName } from '@kibalabs/core';
-import { IOptionalSingleAnyChildProps } from '@kibalabs/core-react';
+import { getClassName } from '@hook-tech/core';
+import { IOptionalSingleAnyChildProps } from '@hook-tech/core-react';
 import styled from 'styled-components';
 
 import { defaultComponentProps, IComponentProps, themeToCss, useBuiltTheme } from '../..';

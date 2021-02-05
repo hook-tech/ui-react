@@ -16,7 +16,7 @@ This does not, however, mean the user cannot configure anything. UI-React is int
 
 ## Consistency
 
-Theming in UI-React should prevent a user from creating "random" looking components without it being obvious in a pull request. In our workflow at Kiba Labs, we ask users to post a screenshot of their work whenever working on projects with an interface - it's often hard to tell what the output will look like from just the code.
+Theming in UI-React should prevent a user from creating "random" looking components without it being obvious in a pull request. In our workflow at Hook, we ask users to post a screenshot of their work whenever working on projects with an interface - it's often hard to tell what the output will look like from just the code.
 
 To alleviate this a little (not entirely!), UI-React tries to ensure that each use of its components look and feel as they do in other uses - which means that if I create a `<Button />` on two separate pages, they look and work in the same way. Following from this, if I use a `<ButtonGroup />` (which internally creates `<Button />`s), it looks and feels the same too. This includes when the component is clicked on, hovered on, selected or unselected, and if its enabled or disabled.
 

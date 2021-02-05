@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { deepCompare, getClassName } from '@kibalabs/core';
-import { IMultiAnyChildProps } from '@kibalabs/core-react';
+import { deepCompare, getClassName } from '@hook-tech/core';
+import { IMultiAnyChildProps } from '@hook-tech/core-react';
 import { Content as MarkdownAST, Parent } from 'mdast';
 import ReactMarkdown from 'react-markdown';
 

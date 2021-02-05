@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { useWindowSize } from '@kibalabs/core-react';
+import { useWindowSize } from '@hook-tech/core-react';
 
 import { getScreenSizeValue, ScreenSize } from '../particles';
 import { useDimensions } from '../theming';

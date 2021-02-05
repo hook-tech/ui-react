@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { getClassName } from '@kibalabs/core';
-import { IMultiChildProps, OptionalProppedElement } from '@kibalabs/core-react';
+import { getClassName } from '@hook-tech/core';
+import { IMultiChildProps, OptionalProppedElement } from '@hook-tech/core-react';
 import styled from 'styled-components';
 
 import { ITabBarItemProps, ITabBarItemTheme, TabBarItem } from '../../atoms/tabBarItem';

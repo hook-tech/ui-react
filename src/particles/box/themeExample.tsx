@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { deepCompare } from '@kibalabs/core';
-import { useDebouncedCallback } from '@kibalabs/core-react';
+import { deepCompare } from '@hook-tech/core';
+import { useDebouncedCallback } from '@hook-tech/core-react';
 
 import { Box, IBoxTheme } from '.';
 import { Text } from '..';

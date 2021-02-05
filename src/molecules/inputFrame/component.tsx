@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { getClassName } from '@kibalabs/core';
-import { ISingleAnyChildProps } from '@kibalabs/core-react';
+import { getClassName } from '@hook-tech/core';
+import { ISingleAnyChildProps } from '@hook-tech/core-react';
 
 import { IInputWrapperTheme, InputWrapper } from '../../atoms';
 import { defaultMoleculeProps, IMoleculeProps } from '../moleculeProps';

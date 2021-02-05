@@ -1,4 +1,4 @@
-import { merge, RecursivePartial } from '@kibalabs/core';
+import { merge, RecursivePartial } from '@hook-tech/core';
 
 import { ITheme } from '.';
 import { buildCheckboxThemes } from '../atoms';

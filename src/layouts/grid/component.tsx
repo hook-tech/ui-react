@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { getClassName } from '@kibalabs/core';
-import { flattenChildren, IMultiChildProps, IOptionalSingleAnyChildProps } from '@kibalabs/core-react';
+import { getClassName } from '@hook-tech/core';
+import { flattenChildren, IMultiChildProps, IOptionalSingleAnyChildProps } from '@hook-tech/core-react';
 import styled from 'styled-components';
 
 import { Alignment, getFlexContentAlignment, getFlexItemAlignment, PaddingSize, PaddingSizeProp } from '../..';
