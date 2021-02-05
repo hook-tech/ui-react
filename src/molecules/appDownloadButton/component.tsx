@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { getClassName, KibaException } from '@hook-techh/core';
+import { getClassName, KibaException } from '@hook-tech/core';
 
 import { defaultMoleculeProps, IMoleculeProps } from '..';
 import { LinkBase } from '../../atoms/linkBase';
