@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { RecursivePartial } from '@kibalabs/core';
-import { IMultiAnyChildProps, useInitialization } from '@kibalabs/core-react';
+import { RecursivePartial } from '@hook-techh/core';
+import { IMultiAnyChildProps, useInitialization } from '@hook-techh/core-react';
 
 import { ITheme } from '..';
 import { IColorGuide } from '../particles/colors';

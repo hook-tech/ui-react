@@ -1,4 +1,4 @@
-import { RecursivePartial } from '@kibalabs/core';
+import { RecursivePartial } from '@hook-tech/core';
 
 import { IBoxTheme, IColorGuide, IDimensionGuide, ITextTheme } from '../../particles';
 import { mergeTheme, ThemeMap } from '../../util';

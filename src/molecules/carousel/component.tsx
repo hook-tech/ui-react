@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { getClassName } from '@kibalabs/core';
-import { flattenChildren, IMultiAnyChildProps, useInterval, useRenderedRef, useScrollListener } from '@kibalabs/core-react';
+import { getClassName } from '@hook-tech/core';
+import { flattenChildren, IMultiAnyChildProps, useInterval, useRenderedRef, useScrollListener } from '@hook-tech/core-react';
 import styled from 'styled-components';
 
 import { IconButton, IIconButtonTheme } from '../../atoms';

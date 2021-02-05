@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { getClassName } from '@kibalabs/core';
-import { getIsRunningOnBrowser, IMultiAnyChildProps, useInitialization } from '@kibalabs/core-react';
+import { getClassName } from '@hook-tech/core';
+import { getIsRunningOnBrowser, IMultiAnyChildProps, useInitialization } from '@hook-tech/core-react';
 import styled from 'styled-components';
 
 import { ITheme, ThemeProvider } from '../theming';

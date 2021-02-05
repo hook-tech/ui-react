@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { getClassName } from '@kibalabs/core';
+import { getClassName } from '@hook-tech/core';
 import styled from 'styled-components';
 
 import { defaultComponentProps, IComponentProps, useBuiltTheme } from '../..';

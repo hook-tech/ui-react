@@ -1,4 +1,4 @@
-import { RecursivePartial } from '@kibalabs/core';
+import { RecursivePartial } from '@hook-tech/core';
 
 import { ITextTheme } from '../../particles';
 import { IColorGuide } from '../../particles/colors';

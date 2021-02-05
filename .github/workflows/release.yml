@@ -46,9 +46,9 @@ jobs:
       - name: executing remote ssh commands
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.FREEBOX_URL }}
-          username: ${{ secrets.FREEBOX_USER }}
-          key: ${{ secrets.FREEBOX_SSH_KEY }}
+          host: ${{ secrets.POCBOX_URL }}
+          username: ${{ secrets.POCBOX_USER }}
+          key: ${{ secrets.POCBOX_SSH_KEY }}
           envs: REPOSITORY_URL,RUNNABLE_DIRECTORY
           script_stop: true
           script: |

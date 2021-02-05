@@ -1,4 +1,4 @@
-import { RecursivePartial } from '@kibalabs/core';
+import { RecursivePartial } from '@hook-tech/core';
 import { darken, getLuminance, invert, lighten, transparentize } from 'polished';
 
 import { IColorGuide } from './theme';

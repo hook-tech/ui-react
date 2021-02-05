@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { getClassName } from '@kibalabs/core';
-import { ISingleAnyChildProps } from '@kibalabs/core-react';
+import { getClassName } from '@hook-techhh/core';
+import { ISingleAnyChildProps } from '@hook-techhh/core-react';
 import styled from 'styled-components';
 
 import { IDimensionGuide } from '../../particles';

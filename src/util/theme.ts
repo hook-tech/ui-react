@@ -1,4 +1,4 @@
-import { merge, mergePartial, RecursivePartial } from '@kibalabs/core';
+import { merge, mergePartial, RecursivePartial } from '@hook-tech/core';
 
 import { camelCaseToKebabCase } from './stringUtil';
 

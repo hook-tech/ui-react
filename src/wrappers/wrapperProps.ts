@@ -1,4 +1,4 @@
-import { ISingleAnyChildProps } from '@kibalabs/core-react';
+import { ISingleAnyChildProps } from '@hook-tech/core-react';
 
 export interface IWrapperProps extends ISingleAnyChildProps {
   className?: string;

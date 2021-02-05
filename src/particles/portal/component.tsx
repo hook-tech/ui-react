@@ -2,8 +2,8 @@ import React from 'react';
 
 import ReactDOM from 'react-dom';
 
-import { getClassName } from '@kibalabs/core';
-import { ISingleAnyChildProps, useEventListener } from '@kibalabs/core-react';
+import { getClassName } from '@hook-tech/core';
+import { ISingleAnyChildProps, useEventListener } from '@hook-tech/core-react';
 import styled from 'styled-components';
 
 import { defaultComponentProps, IComponentProps, themeToCss, useBuiltTheme } from '../..';
