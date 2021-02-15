@@ -46,7 +46,7 @@ export const LayerContainer = (props: ILayerContainerProps): React.ReactElement 
       id={props.id}
       className={getClassName(LayerContainer.displayName, props.className)}
     >
-      { children.map((child: React.ReactNode, index: number): React.ReactElement<ILayerProps> => {
+      { children.map((child: React.ReactElement, index: number): React.ReactElement<ILayerProps> => {
         return (
           <StyledLayer
             id={props.id && `${props.id}-layer-${index}`}
