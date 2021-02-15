@@ -3,6 +3,7 @@ import React from 'react';
 import { getClassName } from '@hook-tech/core';
 import { flattenChildren, IMultiAnyChildProps, IOptionalSingleAnyChildProps, ISingleAnyChildProps } from '@hook-tech/core-react';
 import styled from 'styled-components';
+
 import { Alignment } from '../../model';
 
 interface ILayerProps extends IOptionalSingleAnyChildProps {
@@ -39,25 +40,25 @@ export const LayerContainer = (props: ILayerContainerProps): React.ReactElement 
   const children = flattenChildren(props.children).map((child: React.ReactChild, index: number): React.ReactElement<ILayerProps> => (
     typeof child === 'object' && 'type' in child && child.type === Layer ? child : <Layer key={index}>{ child }</Layer>
   ));
-  console.log('children', children);
+
   return (
     <StyledLayerContainer
       id={props.id}
       className={getClassName(LayerContainer.displayName, props.className)}
     >
       { children.map((child: React.ReactNode, index: number): React.ReactElement<ILayerProps> => {
-        console.log('child', child);
-      return (
-        <StyledLayer
-          id={props.id && `${props.id}-layer-${index}`}
-          className={getClassName(StyledLayer.displayName, child.props.className, child.props.isFullWidth && 'isFullWidth', child.props.isFullHeight && 'isFullHeight')}
-          key={child.key || index}
-          alignmentVertical={child.props.alignmentVertical}
-          alignmentHorizontal={child.props.alignmentHorizontal}
-        >
-          {child.props.children}
-        </StyledLayer>
-      )})}
+        return (
+          <StyledLayer
+            id={props.id && `${props.id}-layer-${index}`}
+            className={getClassName(StyledLayer.displayName, child.props.className, child.props.isFullWidth && 'isFullWidth', child.props.isFullHeight && 'isFullHeight')}
+            key={child.key || index}
+            alignmentVertical={child.props.alignmentVertical}
+            alignmentHorizontal={child.props.alignmentHorizontal}
+          >
+            {child.props.children}
+          </StyledLayer>
+        );
+      })}
     </StyledLayerContainer>
   );
 };
@@ -76,7 +77,7 @@ const getStaticTranslateCssValue = (alignment: Alignment): string => {
     return '-100%';
   }
   return '0';
-}
+};
 
 const getStaticAlignmentCssValue = (alignment: Alignment): string => {
   if (alignment === Alignment.Center) {
@@ -86,15 +87,15 @@ const getStaticAlignmentCssValue = (alignment: Alignment): string => {
     return '100%';
   }
   return '0';
-}
+};
 
 const getStaticPositioningCss = (alignmentVertical: Alignment, alignmentHorizontal: Alignment): string => {
-  let top = getStaticAlignmentCssValue(alignmentVertical);
-  let left = getStaticAlignmentCssValue(alignmentHorizontal);
+  const top = getStaticAlignmentCssValue(alignmentVertical);
+  const left = getStaticAlignmentCssValue(alignmentHorizontal);
   const translateY = getStaticTranslateCssValue(alignmentVertical);
   const translateX = getStaticTranslateCssValue(alignmentHorizontal);
-  return `top: ${top}; left: ${left}; transform: translate(${translateX}, ${translateY})`
-}
+  return `top: ${top}; left: ${left}; transform: translate(${translateX}, ${translateY})`;
+};
 
 interface IStyledLayerProps extends ISingleAnyChildProps {
   className?: string;
